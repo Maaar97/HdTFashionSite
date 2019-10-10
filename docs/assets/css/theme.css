@@ -64,7 +64,19 @@ a:hover,a:focus {
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:13px;
 }
+.navbar-dark {
+	margin-bottom:0;
+	background-color: #000;
+	text-transform:uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:13px;
+}
 .navbar-custom .dropdown-item {
+	font-size:13px;
+    text-transform: none;
+}
+.navbar-dark .dropdown-item {
+	background-color: #000;
 	font-size:13px;
     text-transform: none;
 }
@@ -73,7 +85,29 @@ a:hover,a:focus {
 	text-transform:none;
 	letter-spacing:1px;
 }
+.navbar-dark .navbar-brand {
+	background-color: #000;
+	font-size:20px;
+	text-transform:none;
+	letter-spacing:1px;
+}
+.categoria{
+	background-color: #fcfcfc;
+	opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.categoria:hover{
+	opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#c1:hover{
+	background-image: "./assets/img/ow-logo.jpg";
+}
 .navbar-custom .navbar-brand:focus {
+	outline:0;
+}
+.navbar-dark .navbar-brand:focus {
+	background-color: #000;
 	outline:0;
 }
 .navbar-custom .navbar-brand .navbar-toggle {
@@ -81,7 +115,17 @@ a:hover,a:focus {
 	font-size:16px;
 	color:#fff;
 }
+.navbar-dark .navbar-brand .navbar-toggle {
+	background-color: #000;
+	padding:4px 6px;
+	font-size:16px;
+	color:#fff;
+}
 .navbar-custom .navbar-brand .navbar-toggle:focus,.navbar-custom .navbar-brand .navbar-toggle:active {
+	outline:0;
+}
+.navbar-dark .navbar-brand .navbar-toggle:focus,.navbar-dark .navbar-brand .navbar-toggle:active {
+	background-color: #000;
 	outline:0;
 }
 .nav-link {
@@ -139,6 +183,9 @@ a:hover,a:focus {
 	.dropdown-menu {
 		border:1px solid rgba(0,0,0,0.03);
 	}
+}
+#buy-button{
+	margin: 20px 0;
 }
 .intro {
 	display:table;
